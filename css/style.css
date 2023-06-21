@@ -43,6 +43,17 @@ ul {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: oblique;
 }
+.header-index .header-index__box .header-index-box__h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../assets/img/brillantes-estrellas-brillantes-fondo-abstracto-espacio_250994-1378.avif");
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: x-large;
+  margin-top: 5px;
+}
 .header-index .header-index__box .header-index-box__ul {
   display: flex;
   flex-direction: row;
@@ -56,6 +67,19 @@ ul {
   height: 30px;
   background-color: white;
   margin: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
