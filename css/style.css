@@ -1,0 +1,61 @@
+/*FORMATEO DE ESTILO*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  background-color: black;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*HEADER*/
+.body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header-index {
+  display: flex;
+  justify-content: center;
+}
+.header-index .header-index__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../assets/img/brillantes-estrellas-brillantes-fondo-abstracto-espacio_250994-1378.avif");
+  width: 70%;
+  height: 50vh;
+}
+.header-index .header-index__box .header-index-box__h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../assets/img/brillantes-estrellas-brillantes-fondo-abstracto-espacio_250994-1378.avif");
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+}
+.header-index .header-index__box .header-index-box__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 35px;
+  background-image: url("../assets/img/brillantes-estrellas-brillantes-fondo-abstracto-espacio_250994-1378.avif");
+}
+.header-index .header-index__box .header-index-box__ul .red-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
